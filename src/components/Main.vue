@@ -138,7 +138,7 @@ import Dots from "./Dots.vue";
 import Address from "./Address.vue";
 
 const NETWORKS = {
-    "mainnet-beta": "https://solana-api.projectserum.com",
+    "mainnet-beta": process.env.VUE_APP_SOLANA_RPC,
     testnet: "https://api.testnet.solana.com",
     devnet: "https://api.devnet.solana.com",
     localhost: "http://127.0.0.1:8899",
